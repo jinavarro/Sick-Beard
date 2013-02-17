@@ -71,7 +71,7 @@ class pyTivoNotifier:
         root = showPath.replace(showName, "")
         showAndSeason = rootShowAndSeason.replace(root, "")
         
-        container = shareName + "/" + showAndSeason
+        container = shareName
         file = "/" + absPath.replace(root, "")
         
         # Finally create the url and make request
